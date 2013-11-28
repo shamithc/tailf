@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  get "home/index"
   mount_tailf
   # mount Tailf::Engine => "/tailf"
 
