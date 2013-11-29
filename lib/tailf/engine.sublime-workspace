@@ -87,38 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "lib/generators/abc/abc_generator.rb",
-			"settings":
-			{
-				"buffer_size": 259,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/dummy/config/application.rb",
-			"settings":
-			{
-				"buffer_size": 1025,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/tailf/engine.rb",
-			"settings":
-			{
-				"buffer_size": 252,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/tailf/logger.rb",
-			"settings":
-			{
-				"buffer_size": 1344,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -538,121 +506,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "lib/generators/abc/abc_generator.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								259,
-								259
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test/dummy/config/application.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1025,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								216,
-								216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lib/tailf/engine.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lib/tailf/logger.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1313,
-								1313
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -687,11 +542,7 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 118.0
-	},
-	"project": "Tailf.sublime-project",
+	"project": "engine.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -1123,15 +974,6 @@
 	},
 	"settings":
 	{
-		"last_automatic_layout":
-		[
-			[
-				0,
-				0,
-				1,
-				1
-			]
-		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,
@@ -1141,6 +983,5 @@
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 1
 	}
 }

@@ -8,7 +8,7 @@ require "tailf"
 module Dummy
   class Application < Rails::Application
 
-    config.logger = Logger.new('/dev/null')
+    # config.logger = Logger.new("/home/user/RailsProject/tailf/test/dummy/log/request_summary.log")
 
     # config.middleware.swap Rails::Rack::Logger, CustomLogger, :silenced => ["/application/log"]
     # Settings in config/environments/* take precedence over those specified here.

@@ -4,9 +4,9 @@ module Tailf
   class LogController < ApplicationController
     def index
     	# Logging.logger.root.level = 'off'
-    	@last_25_lines = `tail -n 25 log/development.log`
+    	@last_25_lines = `tail -n 250 "#{Tailf.rails_log_path}"`
     	#Rails.application.config['log'] = 'aaa'
-    	render text: Rails.application.config.methods
+    	render text: @last_25_lines
     end
   end
 end

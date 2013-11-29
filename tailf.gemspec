@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0.1"
   s.add_dependency 'guard-livereload'
+  s.add_dependency 'better_errors'
   
   s.add_development_dependency "sqlite3"
 end
