@@ -32,7 +32,7 @@ module Rails
       def call_app(request, env)
         bolcked_path = ["/assets/tailf/log.css", "/assets/tailf/application.css", "/assets/tailf/log.js", "/assets/tailf/application.js", "/application/log"]
         # Put some space between requests in development logs.
-        if development?
+        if development? and !bolcked_path.include?(request.env["PATH_INFO"])
           logger.debug ''
           logger.debug ''
         end
@@ -52,3 +52,4 @@ module Rails
     end
   end
 end
+
