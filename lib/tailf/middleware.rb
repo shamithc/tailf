@@ -28,17 +28,26 @@ module Rails
     class Logger < ActiveSupport::LogSubscriber
 
       protected
-      def started_request_message(request)
+
+      def call_app(request, env)
         bolcked_path = ["/assets/tailf/log.css", "/assets/tailf/application.css", "/assets/tailf/log.js", "/assets/tailf/application.js", "/application/log"]
-        unless bolcked_path.include?(request.env["PATH_INFO"])
-          'Started %s "%s" for %s at %s' % [
-          request.request_method,
-          request.filtered_path,
-          request.ip,
-          Time.now.to_default_s ]
-        else
-          ''
+        # Put some space between requests in development logs.
+        if development?
+          logger.debug ''
+          logger.debug ''
         end
+
+        instrumenter = ActiveSupport::Notifications.instrumenter
+        instrumenter.start 'request.action_dispatch', request: request
+        logger.info started_request_message(request) unless bolcked_path.include?(request.env["PATH_INFO"])
+        resp = @app.call(env)
+        resp[2] = ::Rack::BodyProxy.new(resp[2]) { finish(request) }
+        resp
+      rescue
+        finish(request)
+        raise
+      ensure
+        ActiveSupport::LogSubscriber.flush_all!
       end
     end
   end
