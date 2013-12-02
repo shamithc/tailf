@@ -1,49 +1,30 @@
-# require 'active_support/logger'
+module Rails
+  module Rack
+    # Sets log tags, logs the request, calls the app, and flushes the logs.
+    class Logger < ActiveSupport::LogSubscriber
 
-module Tailf
-  class LogSubscriber < ActiveSupport::LogSubscriber
+      protected
 
-   def logger
-      @logger ||= create_logger
-    end
+      def call_app(request, env)
+        bolcked_path = ["/assets/tailf/log.css", "/assets/tailf/application.css", "/assets/tailf/log.js", "/assets/tailf/application.js", "/application/log"]
+        # Put some space between requests in development logs.
+        if development? and !bolcked_path.include?(request.env["PATH_INFO"])
+          logger.debug ''
+          logger.debug ''
+        end
 
-    def create_logger
-      logger = Logger.new("#{Rails.root}/log/request_summary.log")
-      logger.formatter = Formatter.new
-      logger
-    end
-
-    class Formatter
-      def call severity, time, progname, msg
-        "#{severity[0]} #{time.utc.strftime('%FT%T.%6NZ')} #{msg}\n"
+        instrumenter = ActiveSupport::Notifications.instrumenter
+        instrumenter.start 'request.action_dispatch', request: request
+        logger.info started_request_message(request) unless bolcked_path.include?(request.env["PATH_INFO"])
+        resp = @app.call(env)
+        resp[2] = ::Rack::BodyProxy.new(resp[2]) { finish(request) }
+        resp
+      rescue
+        finish(request)
+        raise
+      ensure
+        ActiveSupport::LogSubscriber.flush_all!
       end
-    end
-
-    INTERNAL_PARAMS = %w(controller action format _method only_path)
-
-    def process_action event
-      payload = event.payload
-      param_method = payload[:params]['_method']
-      method = param_method ? param_method.upcase : payload[:method]
-      status = compute_status(payload)
-      path = payload[:path]
-      params = payload[:params].except(*INTERNAL_PARAMS)
-
-      message = "%-6s #{status} #{path}" % method
-      message << " parameters=#{params}" unless params.empty?
-
-      logger.info message
-    end
-
-    def compute_status payload
-      status = payload[:status]
-      if status.nil? && payload[:exception].present?
-        exception_class_name = payload[:exception].first
-        status = ActionDispatch::ExceptionWrapper.status_code_for_exception(exception_class_name)
-      end
-      status
     end
   end
 end
-
-# Tailf::LogSubscriber.attach_to :action_controller

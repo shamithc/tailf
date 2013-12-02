@@ -11,6 +11,5 @@ module Tailf
 	initializer 'set_logger_path', :after => 'initialize_logger' do |app|
     	Tailf.rails_log_path = Rails.configuration.paths["log"].first
   	end
-
   end
 end
