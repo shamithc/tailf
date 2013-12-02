@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mi",
+				"middleware"
+			],
+			[
 				"lo",
 				"logger"
 			],
@@ -99,7 +103,15 @@
 			"file": "test/dummy/config/application.rb",
 			"settings":
 			{
-				"buffer_size": 1025,
+				"buffer_size": 1080,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/tailf/log_controller.rb",
+			"settings":
+			{
+				"buffer_size": 332,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,8 +119,44 @@
 			"file": "lib/tailf/engine.rb",
 			"settings":
 			{
-				"buffer_size": 252,
+				"buffer_size": 434,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "module Tailf\n  class Middleware < Rails::Rack::Logger\n    def initialize(app, opts = {})\n      @app = app\n      @opts = opts\n      @opts[:silenced] ||= []\n    end\n\n    def call(env)\n      puts @opts[:silenced].include?(env['PATH_INFO'])\n      puts env['PATH_INFO']\n      if env['X-SILENCE-LOGGER'] || @opts[:silenced].include?(env['PATH_INFO'])\n        Rails.logger.silence do\n          @app.call(env)\n        end\n      else\n        @app.call(env)\n      end\n    end\n\n  end\nend\n\n\nmodule Rails\n  module Rack\n    # Sets log tags, logs the request, calls the app, and flushes the logs.\n    class Logger < ActiveSupport::LogSubscriber\n\n      \n    end\n  end\nend\n",
+			"file": "lib/tailf/middleware.rb",
+			"file_size": 476,
+			"file_write_time": 130304517136835093,
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/tailf.rb",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/tailf/version.rb",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#<Rails::Application::Configuration:0x00000001ffb0a8 @root=#<Pathname:/home/user/RailsProject/tailf/test/dummy>, @generators=#<Rails::Configuration::Generators:0x00000001fba968 @aliases={}, @options={:rails=>{:orm=>:active_record, :test_framework=>:test_unit, :integration_tool=>:test_unit}, :active_record=>{:migration=>true, :timestamps=>true}, :test_unit=>{:fixture=>true, :fixture_replacement=>nil}}, @fallbacks={}, @templates=[], @colorize_logging=true, @hidden_namespaces=[]>, @encoding=\"utf-8\", @allow_concurrency=nil, @consider_all_requests_local=true, @filter_parameters=[:password], @filter_redirect=[], @helpers_paths=[\"/home/user/RailsProject/tailf/test/dummy/app/helpers\"], @serve_static_assets=true, @static_cache_control=nil, @force_ssl=false, @ssl_options={}, @session_store=:cookie_store, @session_options={:key=>\"_dummy_session\", :cookie_only=>true}, @time_zone=\"UTC\", @beginning_of_week=:monday, @log_level=:debug, @middleware=#<ActionDispatch::MiddlewareStack:0x000000023a0b18 @middlewares=[Rack::Sendfile, ActionDispatch::Static, Rack::Lock, #<ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x000000020eb3c8>, Rack::Runtime, Rack::MethodOverride, ActionDispatch::RequestId, Rails::Rack::Logger, ActionDispatch::ShowExceptions, ActionDispatch::DebugExceptions, ActionDispatch::RemoteIp, ActionDispatch::Reloader, ActionDispatch::Callbacks, ActiveRecord::Migration::CheckPending, ActiveRecord::ConnectionAdapters::ConnectionManagement, ActiveRecord::QueryCache, ActionDispatch::Cookies, ActionDispatch::Session::CookieStore, ActionDispatch::Flash, ActionDispatch::ParamsParser, Rack::Head, Rack::ConditionalGet, Rack::ETag, Tailf::Middleware]>, @cache_store=[:file_store, \"/home/user/RailsProject/tailf/test/dummy/tmp/cache/\"], @railties_order=[:all], @relative_url_root=nil, @reload_classes_only_on_change=true, @file_watcher=ActiveSupport::FileUpdateChecker, @exceptions_app=nil, @autoflush_log=true, @log_formatter=#<ActiveSupport::Logger::SimpleFormatter:0x00000001ffdfd8 @datetime_format=nil>, @eager_load=false, @secret_token=nil, @secret_key_base=\"09f61a89c7027b20f904bc91e0f0d6bf0449b3a47be9ed2dcb4b720d45ab05128d32b719caea5c69f85fbcb1950db65ffd1cfeabafbc34deeae50a928bed1d78\", @assets={:enabled=>true, :paths=>[], :precompile=>[#<Proc:0x00000001ffd1f0@/home/user/.rvm/gems/ruby-1.9.3-p194/gems/railties-4.0.1/lib/rails/application/configuration.rb:54>, /(?:\\/|\\\\|\\A)application\\.(css|js)$/], :prefix=>\"/assets\", :version=>\"1.0\", :debug=>false, :compile=>true, :digest=>false, :cache_store=>[:file_store, \"/home/user/RailsProject/tailf/test/dummy/tmp/cache/assets/development/\"], :js_compressor=>nil, :css_compressor=>nil, :initialize_on_precompile=>true, :logger=>nil}, @paths=#<Rails::Paths::Root:0x000000020eabd0 @current=nil, @path=#<Pathname:/home/user/RailsProject/tailf/test/dummy>, @root={\"app\"=>#<Rails::Paths::Path:0x000000020f1250 @paths=[\"app\"], @current=\"app\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"*\", @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/assets\"=>#<Rails::Paths::Path:0x000000020f04b8 @paths=[\"app/assets\"], @current=\"app/assets\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"*\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"app/controllers\"=>#<Rails::Paths::Path:0x000000020efbf8 @paths=[\"app/controllers\"], @current=\"app/controllers\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/helpers\"=>#<Rails::Paths::Path:0x000000020ef478 @paths=[\"app/helpers\"], @current=\"app/helpers\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/models\"=>#<Rails::Paths::Path:0x000000020eec80 @paths=[\"app/models\"], @current=\"app/models\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/mailers\"=>#<Rails::Paths::Path:0x000000020ee5f0 @paths=[\"app/mailers\"], @current=\"app/mailers\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/views\"=>#<Rails::Paths::Path:0x000000020edee8 @paths=[\"app/views\"], @current=\"app/views\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"app/controllers/concerns\"=>#<Rails::Paths::Path:0x000000020f5300 @paths=[\"app/controllers/concerns\"], @current=\"app/controllers/concerns\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"app/models/concerns\"=>#<Rails::Paths::Path:0x000000020f4fb8 @paths=[\"app/models/concerns\"], @current=\"app/models/concerns\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=true, @autoload=false, @load_path=false>, \"lib\"=>#<Rails::Paths::Path:0x000000020f4e00 @paths=[\"lib\"], @current=\"lib\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=true>, \"lib/assets\"=>#<Rails::Paths::Path:0x000000020f46d0 @paths=[\"lib/assets\"], @current=\"lib/assets\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"*\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"lib/tasks\"=>#<Rails::Paths::Path:0x000000020f4248 @paths=[\"lib/tasks\"], @current=\"lib/tasks\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"**/*.rake\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config\"=>#<Rails::Paths::Path:0x000000020f3960 @paths=[\"config\"], @current=\"config\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/environments\"=>#<Rails::Paths::Path:0x000000020f33c0 @paths=[\"config/environments\"], @current=\"config/environments\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"development.rb\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/initializers\"=>#<Rails::Paths::Path:0x000000020f2fb0 @paths=[\"config/initializers\"], @current=\"config/initializers\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"**/*.rb\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/locales\"=>#<Rails::Paths::Path:0x000000020f2c90 @paths=[\"config/locales\"], @current=\"config/locales\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"*.{rb,yml}\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/routes.rb\"=>#<Rails::Paths::Path:0x000000020f28d0 @paths=[\"config/routes.rb\"], @current=\"config/routes.rb\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"db\"=>#<Rails::Paths::Path:0x000000020f2588 @paths=[\"db\"], @current=\"db\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"db/migrate\"=>#<Rails::Paths::Path:0x000000020f22b8 @paths=[\"db/migrate\"], @current=\"db/migrate\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"db/seeds.rb\"=>#<Rails::Paths::Path:0x000000020f9608 @paths=[\"db/seeds.rb\"], @current=\"db/seeds.rb\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"vendor\"=>#<Rails::Paths::Path:0x000000020f8ca8 @paths=[\"vendor\"], @current=\"vendor\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=true>, \"vendor/assets\"=>#<Rails::Paths::Path:0x000000020f88c0 @paths=[\"vendor/assets\"], @current=\"vendor/assets\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=\"*\", @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/database\"=>#<Rails::Paths::Path:0x000000020f84d8 @paths=[\"config/database.yml\"], @current=\"config/database\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"config/environment\"=>#<Rails::Paths::Path:0x000000020f8258 @paths=[\"config/environment.rb\"], @current=\"config/environment\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"lib/templates\"=>#<Rails::Paths::Path:0x000000020f80a0 @paths=[\"lib/templates\"], @current=\"lib/templates\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"log\"=>#<Rails::Paths::Path:0x000000020f7c90 @paths=[\"log/development.log\"], @current=\"log\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"public\"=>#<Rails::Paths::Path:0x000000020f7790 @paths=[\"public\"], @current=\"public\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"public/javascripts\"=>#<Rails::Paths::Path:0x000000020f7380 @paths=[\"public/javascripts\"], @current=\"public/javascripts\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"public/stylesheets\"=>#<Rails::Paths::Path:0x000000020f6f98 @paths=[\"public/stylesheets\"], @current=\"public/stylesheets\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>, \"tmp\"=>#<Rails::Paths::Path:0x000000020f66d8 @paths=[\"tmp\"], @current=\"tmp\", @root=#<Rails::Paths::Root:0x000000020eabd0 ...>, @glob=nil, @autoload_once=false, @eager_load=false, @autoload=false, @load_path=false>}>, @autoload_paths=[], @eager_load_paths=[\"/home/user/RailsProject/tailf/test/dummy/app/assets\", \"/home/user/RailsProject/tailf/test/dummy/app/controllers\", \"/home/user/RailsProject/tailf/test/dummy/app/helpers\", \"/home/user/RailsProject/tailf/test/dummy/app/mailers\", \"/home/user/RailsProject/tailf/test/dummy/app/models\", \"/home/user/RailsProject/tailf/test/dummy/app/controllers/concerns\", \"/home/user/RailsProject/tailf/test/dummy/app/models/concerns\"], @autoload_once_paths=[], @cache_classes=false>",
+			"settings":
+			{
+				"buffer_size": 10597,
+				"line_ending": "Unix",
+				"name": "#<Rails::Application::Configuration:0x00000001ffb0"
 			}
 		},
 		{
@@ -116,6 +164,14 @@
 			"settings":
 			{
 				"buffer_size": 1344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/rails/logger.rb",
+			"settings":
+			{
+				"buffer_size": 351,
 				"line_ending": "Unix"
 			}
 		}
@@ -219,6 +275,7 @@
 	},
 	"file_history":
 	[
+		"/home/user/RailsProject/tailf/test/dummy/log/request_summary.log",
 		"/home/user/RailsProject/tailf/test/dummy/app/controllers/home_controller.rb",
 		"/home/user/RailsProject/tailf/tailf.gemspec",
 		"/home/user/RailsProject/tailf/lib/tailf/middleware.rb",
@@ -345,8 +402,7 @@
 		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/properties/properties.json.rabl",
 		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/properties/index.json.rabl",
 		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/properties/_property_accordion_list.html.erb",
-		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/properties/index.html.erb",
-		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/reports/headers/brochure_header.pdf.erb"
+		"/home/user/BBC-v3.1/BBC/trunk/BBC/app/views/properties/index.html.erb"
 	],
 	"find":
 	{
@@ -393,6 +449,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"log",
+			"    	\n",
 			"Railf",
 			"last_25_lines",
 			"()",
@@ -518,9 +576,7 @@
 			"todoapp",
 			"})",
 			"TodoModel",
-			"\"",
-			"require",
-			"define"
+			"\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -538,7 +594,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -574,15 +630,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1025,
+						"buffer_size": 1080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								182,
+								182
 							]
 						],
 						"settings":
@@ -599,19 +655,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "lib/tailf/engine.rb",
+					"file": "app/controllers/tailf/log_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 252,
+						"buffer_size": 332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								127,
+								127
 							]
 						],
 						"settings":
@@ -626,6 +682,143 @@
 				},
 				{
 					"buffer": 3,
+					"file": "lib/tailf/engine.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/tailf/middleware.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/tailf.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/tailf/version.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8908,
+								8908
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#<Rails::Application::Configuration:0x00000001ffb0",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1564.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "lib/tailf/logger.rb",
 					"semi_transient": false,
 					"settings":
@@ -637,8 +830,8 @@
 						"selection":
 						[
 							[
-								1313,
-								1313
+								1344,
+								1344
 							]
 						],
 						"settings":
@@ -648,7 +841,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/rails/logger.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1100,7 +1322,11 @@
 		[
 			[
 				"",
-				"~/BBC-v3.1/BBC/trunk/BBC/BBC.sublime-project"
+				"~/Documents/sublime_projects/Railties.sublime-project"
+			],
+			[
+				"act",
+				"~/Documents/sublime_projects/active_support-4.0.1.sublime-project"
 			],
 			[
 				"\\",
