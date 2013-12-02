@@ -31,7 +31,11 @@ module Rails
       def started_request_message(request)
         bolcked_path = ["/assets/tailf/log.css", "/assets/tailf/application.css", "/assets/tailf/log.js", "/assets/tailf/application.js", "/application/log"]
         unless bolcked_path.include?(request.env["PATH_INFO"])
-          super
+          'Started %s "%s" for %s at %s' % [
+          request.request_method,
+          request.filtered_path,
+          request.ip,
+          Time.now.to_default_s ]
         else
           ''
         end
