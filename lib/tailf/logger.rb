@@ -46,4 +46,4 @@ module Tailf
   end
 end
 
-Tailf::LogSubscriber.attach_to :action_controller
+# Tailf::LogSubscriber.attach_to :action_controller

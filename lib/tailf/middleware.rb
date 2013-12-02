@@ -1,28 +1,39 @@
 module Tailf
-  class Middleware
-    
-    def initialize(app)
+  class Middleware < Rails::Rack::Logger
+    def initialize(app, opts = {})
       @app = app
+      @opts = opts
+      @opts[:silenced] ||= []
     end
 
     def call(env)
-      Rails.logger.silence do
+      puts @opts[:silenced].include?(env['PATH_INFO'])
+      puts env['PATH_INFO']
+      if env['X-SILENCE-LOGGER'] || @opts[:silenced].include?(env['PATH_INFO'])
+        Rails.logger.silence do
+          @app.call(env)
+        end
+      else
         @app.call(env)
       end
-    	# resp = @app.call(env)
-
-		# Rails.logger.info resp
-
-		
-        # request = ActionDispatch::Request.new(env)
-
-        # if logger.respond_to?(:tagged)
-        #   logger.tagged(compute_tags(request)) { call_app(request, env) }
-        # else
-        #   call_app(request, env)
-        # end
     end
 
   end
 end
-    
+
+
+module Rails
+  module Rack
+    # Sets log tags, logs the request, calls the app, and flushes the logs.
+    class Logger < ActiveSupport::LogSubscriber
+
+      protected
+      def started_request_message(request)
+        bolcked_path = ["/assets/tailf/log.css", "/assets/tailf/application.css", "/assets/tailf/log.js", "/assets/tailf/application.js", "/application/log"]
+        # unless bolcked_path.include?()
+        puts request.env["PATH_INFO"]
+        ''
+      end
+    end
+  end
+end
