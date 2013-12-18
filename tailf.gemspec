@@ -7,11 +7,11 @@ require "tailf/version"
 Gem::Specification.new do |s|
   s.name        = "tailf"
   s.version     = Tailf::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Tailf."
-  s.description = "TODO: Description of Tailf."
+  s.authors     = ["shamithc"]
+  s.email       = ["shamithc@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "aaaa"
+  s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
