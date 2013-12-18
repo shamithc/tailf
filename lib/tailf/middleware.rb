@@ -10,9 +10,9 @@ module Tailf
       puts @opts[:silenced].include?(env['PATH_INFO'])
       puts env['PATH_INFO']
       if env['X-SILENCE-LOGGER'] || @opts[:silenced].include?(env['PATH_INFO'])
-        Rails.logger.silence do
+        # Rails.logger.silence do
           @app.call(env)
-        end
+        # end
       else
         @app.call(env)
       end
