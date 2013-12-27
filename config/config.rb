@@ -1,0 +1,1 @@
+config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)

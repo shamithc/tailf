@@ -1,0 +1,1748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"file_content"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"release",
+				"release_date"
+			],
+			[
+				"res",
+				"respond_to"
+			],
+			[
+				"contact",
+				"contact_id"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"deal_contact",
+				"deal_contact_type_id"
+			],
+			[
+				"per",
+				"percentage_input"
+			],
+			[
+				"doll",
+				"dollar_with_dot_input"
+			],
+			[
+				"java",
+				"javascript_include_tag"
+			],
+			[
+				"co",
+				"condition"
+			],
+			[
+				"fla",
+				"flash"
+			],
+			[
+				"Success",
+				"successfully"
+			],
+			[
+				"tea",
+				"team_id"
+			],
+			[
+				"updA",
+				"update_attributes"
+			],
+			[
+				"du",
+				"dup_deal"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"in",
+				"invoice_amt"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"prope",
+				"property"
+			],
+			[
+				"sear",
+				"search_key"
+			],
+			[
+				"di",
+				"digit"
+			],
+			[
+				"deal",
+				"deal_contacts"
+			],
+			[
+				"promo",
+				"promoted_potential_deal"
+			],
+			[
+				"s",
+				"showPercentage"
+			],
+			[
+				"update",
+				"update_attributes"
+			],
+			[
+				"te",
+				"text_field"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"Cli",
+				"ClientRequirement"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"deala",
+				"dealable"
+			],
+			[
+				"property",
+				"property_sub_type"
+			],
+			[
+				"prop",
+				"property"
+			],
+			[
+				"con",
+				"contingency_days"
+			],
+			[
+				"rea",
+				"readonly"
+			],
+			[
+				"first",
+				"first_due_date"
+			],
+			[
+				"fou",
+				"fourth_due_date"
+			],
+			[
+				"thir",
+				"third_due_date"
+			],
+			[
+				"secon",
+				"second_due_date"
+			],
+			[
+				"dea",
+				"deal_deposit"
+			],
+			[
+				"pro",
+				"Property"
+			],
+			[
+				"num",
+				"number_to_currency"
+			],
+			[
+				"listing_st",
+				"listing_status_id"
+			],
+			[
+				"se",
+				"self_val"
+			],
+			[
+				"list",
+				"listing_ids"
+			],
+			[
+				"link",
+				"linkable_type"
+			],
+			[
+				"fe",
+				"fenced"
+			],
+			[
+				"jva",
+				"javascript_include_tag"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"off",
+				"office_zip"
+			],
+			[
+				"to",
+				"to_s"
+			],
+			[
+				"add",
+				"address_2"
+			],
+			[
+				"contac",
+				"contact_personal_info"
+			],
+			[
+				"client",
+				"client_requirement_info"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"sp",
+				"span	Tag"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"par",
+				"parseFloat"
+			],
+			[
+				"clie",
+				"client_requirement_status"
+			],
+			[
+				"cl",
+				"client_requirement_status"
+			],
+			[
+				"listings",
+				"listings_path"
+			],
+			[
+				"unit",
+				"unit_size_sm"
+			],
+			[
+				"un",
+				"unit_size_sf"
+			],
+			[
+				"uni",
+				"units"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"property_",
+				"property_sub_type_id"
+			],
+			[
+				"deal_s",
+				"deal_status_id"
+			],
+			[
+				"deal_con",
+				"deal_contingencies"
+			],
+			[
+				"note",
+				"Note"
+			],
+			[
+				"pote",
+				"potential_deals"
+			],
+			[
+				"pdea",
+				"pdeal_contacts"
+			],
+			[
+				"listing",
+				"listing_contacts"
+			],
+			[
+				"deal_",
+				"deal_contact"
+			],
+			[
+				"is",
+				"is_primary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/vishnu/project/rails_projects/sample_app/app/assets/stylesheets/custom_styles.css",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vishnu/project/rails_projects/sample_app/app/views/posts/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 604,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vishnu/project/rails_projects/sample_app/Guardfile",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/dummy/config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/config.rb",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tailf/log/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 16262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vishnu/project/rails_projects/sample_app/Gemfile",
+			"settings":
+			{
+				"buffer_size": 1393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tailf.gemspec",
+			"settings":
+			{
+				"buffer_size": 875,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Guardfile",
+			"settings":
+			{
+				"buffer_size": 442,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"BeautifyRuby"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"SIDE",
+				"View: Toggle Side Bar"
+			],
+			[
+				"snip",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"snypp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sni",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"togglr",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"togge",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib.request,urllib.error,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vishnu/project/rails_projects/sample_app/config/environments/development.rb",
+		"/home/vishnu/gems/tailf/lib/tailf/middleware.rb",
+		"/home/vishnu/gems/tailf/test/dummy/app/controllers/home_controller.rb",
+		"/home/vishnu/gems/tailf/app/views/tailf/log/index.html.erb",
+		"/home/vishnu/gems/tailf/app/controllers/tailf/log_controller.rb",
+		"/home/vishnu/gems/tailf/tailf.gemspec",
+		"/home/vishnu/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/vishnu/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/vishnu/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/vishnu/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/vishnu/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/vishnu/gems/tailf/test/dummy/app/views/home/index.html.erb",
+		"/home/vishnu/project/ruby/virus.rb",
+		"/home/vishnu/project/ruby/youtube.rb",
+		"/home/vishnu/project/ruby/youtube.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/config/environments/development.rb",
+		"/home/vishnu/project/ruby/sent.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/Gemfile",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/settings_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/reports_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/users/sessions_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/user.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/config/routes.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/unit_details_office.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/unit_details_retail.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/unit_details_industry.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/dashboard_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/Rakefile",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/helpers/deals_helper.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/test/fixtures/teams.yml",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/contact.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/deal.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/team.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/teams_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/teams/_new_form.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/application_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/contacts_controller.rb",
+		"/home/vishnu/Desktop/sample_apps/first_app/app/models/user.rb",
+		"/home/vishnu/Desktop/sample_apps/first_app/db/migrate/20131031065018_create_users.rb",
+		"/home/vishnu/Desktop/sample_apps/first_app/app/controllers/users_controller.rb",
+		"/home/vishnu/Desktop/sample_apps/first_app/config/routes.rb",
+		"/home/vishnu/Desktop/sitemap.xml",
+		"/home/vishnu/.config/sublime-text-3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/listings_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/properties_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/units_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/index.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/deals_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/incoming_calls_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/link_to_wizards_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/lib/query_string_factory.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers/client_requirements_controller.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/stylesheets/application.css",
+		"/home/vishnu/project/brokersoft/trunk/BBC/config/database.yml",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/listing_lease_info.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/steps/_listing_details.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/listing_details.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/listing_overview.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts/entity_accord.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/investment_sale/rent_roll.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/available_units.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties/property_overview.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties/unit_details.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties/unit_list.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/shared/_property_buttons.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/units/unit_details.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/shared/_active_accordion_property.html.erb",
+		"/home/vishnu/project/invoke_ivoke/pockit-client/pocket-it-vendor-client/bower.json",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/picture.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/picture.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts/delete_records.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_upload_photo.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_add_actionitems.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/new_actionitems.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/config/environments/production.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_actionitem.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/shared/_note.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_add_notes.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/unit.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/reports/detailed_tenant_report.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/units/new.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_tasks.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/reports/detailed_listing_report.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/vendor/assets/javascripts/jquery.mCustomScrollbar.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/tenant_lease.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/property_type.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/units/steps/_tenant_lease.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/_search_property.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/user_mailer/account_activation.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/dashboard/index.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/note.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/models/contact_personal_info.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/layouts/application.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/helpers/application_helper.rb",
+		"/home/vishnu/Private/recycler",
+		"/home/vishnu/project/brokersoft/trunk/BBC/lib/import_export/exporter.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/reports/list_contact_report.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/settings/export.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/spec/factories.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/spec/spec_helper.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/spec/models/deal_spec.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/test/functional/deals_controller_test.rb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/new.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/client_requirements/edit_basic_info.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_personal_info.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/edit_contact_personal_info.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_contact_family_infos.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/client_requirements/_basic_info.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/shared/_active_accordion_client_requirement.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/stylesheets/application_layout.css.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts/_contact_info.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts/basic_info_property.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/client_requirements/client_requirements_overview.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts/load_property_subtypes.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts/add_family_info.js",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/client_requirement_deal/_add_cr_contacts.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/steps/_available_units.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/shared/_footer.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change/listing/_deal_confirm_contacts.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change/clientrequirement/_deal_confirm_contacts.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change/listing/_deal_commission_and_split.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change/clientrequirement/_deal_commission_and_split.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/_deal_contacts.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings/project_details.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/deal_lease.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/deal_sale.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/deal_contacts.html.erb",
+		"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/deal_other.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/teams",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/db",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/reports",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/contacts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/units",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/units",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals/status_change",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/listings",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/client_requirements/potential_deal",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/client_requirements",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/helpers",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/controllers",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets/javascripts",
+			"/home/vishnu/project/brokersoft/trunk/BBC",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/settings",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/teams",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/helpers",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/properties",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/helpers",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/models",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/assets",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views/deals",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app/views",
+			"/home/vishnu/project/brokersoft/trunk/BBC/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"p.",
+			".",
+			"p",
+			"tr",
+			"all_frames",
+			"application_frames",
+			"exception",
+			"h2",
+			"h1",
+			"sidebar",
+			"tabs",
+			"backtrace",
+			"sidebar",
+			"top",
+			"tab",
+			"TAB",
+			"type",
+			"0000000040FAD1DC41BCDF448BC687FDC0E15EF144052000",
+			"center-text",
+			"calendar-table",
+			"close-notification",
+			"calendar",
+			"olContactItem",
+			"spreadsheet",
+			"spreadsheet/note",
+			"SELECT `actionitems`.* FROM `actionitems` WHERE `actionitems`.`actionitemable_id` = 6 AND `actionitems`.`actionitemable_type` = 'User' AND (start_date >= '06-11-2012' and end_date >= '06-01-2014' )",
+			"settings",
+			"phone",
+			"=>",
+			"epartment",
+			"Department",
+			"new_form",
+			"team_users",
+			"nested",
+			"confirmation_mail_sent",
+			"confirma",
+			"first_name_or_last_name_or_company_nam",
+			"first_name_or_last_name_or_company_name_start",
+			"first_name_or_last_name_or_company",
+			"first_name_or_last_name_or_company_name_cont",
+			"ruby",
+			"first_name_or_last_name_or_company_name",
+			"build",
+			"category",
+			"rawr",
+			"unit_rate_varies",
+			"rate",
+			"lease_",
+			"lease_ra",
+			"list_price_sf",
+			"new",
+			"tenant_lease",
+			"Jconfirm",
+			"alert",
+			"unit_init_path",
+			"unit",
+			"ssl",
+			"before_upload_photo",
+			"@action",
+			"create_action_note",
+			"+",
+			"Notes",
+			".note",
+			"note",
+			"task.note",
+			"http://",
+			"Bu",
+			"bull",
+			"convert_min_max_size",
+			"grm",
+			"cap_rate",
+			"total_rent_per_sf",
+			"brain",
+			"purchase commiss",
+			"seller",
+			"listing_sale_info",
+			"seller carry",
+			"purchase_commission",
+			"export",
+			"address",
+			"deal_type",
+			"client_basic_requirement_info",
+			"ClientBasicRequirementInfo",
+			"includes",
+			"bull",
+			"bullet",
+			"session[:wizard_last_path]",
+			"client_requirement_property_sub_type_id",
+			"sub",
+			"sharing_option",
+			"sharing_option_myself",
+			"tenant_leas",
+			"efine The Sharing Status of This Record",
+			"delete_family",
+			"delete_icon",
+			"rel",
+			"menu_wrapper",
+			"change_contact_type_btn",
+			"Contact Ty",
+			"incre",
+			"inc",
+			"incr",
+			"deal_commission_gross_commission_percent",
+			"percentage_input_test",
+			"percenta",
+			"search_btn",
+			"no_eter_key",
+			"keyup",
+			"base_rent_sf",
+			"unit_tenant_lease_base_rent",
+			"alert",
+			"Residential Special Features",
+			"cooling",
+			"buildin",
+			"value",
+			"list_view",
+			"edit_vot_info",
+			"@change_deal_status",
+			"change_deal_status",
+			"load_deal_status_state",
+			"inactive",
+			"deal_sale_open_date",
+			"qti",
+			"session[:back_path]",
+			"create_deal_contingency",
+			"deal_status",
+			"session[:back_path]",
+			"sess"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"first_name_or_last_name_or_company_name_or_category_start",
+			"first_name_or_last_name_or_company_name_or_category_cont",
+			"dollar_with_dot_input",
+			"\"#form_convert_price_to_normal\"",
+			"\"form_convert_price_to_normal\"",
+			"form_convert_price_to_normal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/vishnu/project/rails_projects/sample_app/app/assets/stylesheets/custom_styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vishnu/project/rails_projects/sample_app/app/views/posts/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/vishnu/project/rails_projects/sample_app/Guardfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/dummy/config/environments/development.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1112,
+								1112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/tailf/log/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8586.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/vishnu/project/rails_projects/sample_app/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								991,
+								991
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tailf.gemspec",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Guardfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"project": "tailf.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gemsp",
+				"tailf/tailf.gemspec"
+			],
+			[
+				"deve",
+				"sample_app/config/environments/development.rb"
+			],
+			[
+				"ge",
+				"sample_app/Gemfile"
+			],
+			[
+				"inde",
+				"app/views/tailf/log/index.html.erb"
+			],
+			[
+				"config",
+				"config/application.rb"
+			],
+			[
+				"dashb",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"contactcon",
+				"app/controllers/contacts_controller.rb"
+			],
+			[
+				"applicacon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"rabl",
+				"app/views/contacts/contacts.json.rabl"
+			],
+			[
+				"deals/load_contingency",
+				"app/views/deals/_load_contingency.html.erb"
+			],
+			[
+				"deal_contin",
+				"app/views/deals/deal_contigency.html.erb"
+			],
+			[
+				"settin",
+				"app/controllers/settings_controller.rb"
+			],
+			[
+				"repo",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"sessions",
+				"app/controllers/users/sessions_controller.rb"
+			],
+			[
+				"con/rou",
+				"config/routes.rb"
+			],
+			[
+				"models/unit",
+				"app/models/unit_details_office.rb"
+			],
+			[
+				"models/unit_det",
+				"app/models/unit_details_industry.rb"
+			],
+			[
+				"das",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"settings",
+				"app/controllers/settings_controller.rb"
+			],
+			[
+				"deals",
+				"app/helpers/deals_helper.rb"
+			],
+			[
+				"contacts",
+				"app/controllers/contacts_controller.rb"
+			],
+			[
+				"contact",
+				"app/models/contact.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"sessio_co",
+				"app/controllers/users/sessions_controller.rb"
+			],
+			[
+				"contact_co",
+				"app/controllers/contacts_controller.rb"
+			],
+			[
+				"contcts",
+				"app/controllers/contacts_controller.rb"
+			],
+			[
+				"contac",
+				"app/models/contact.rb"
+			],
+			[
+				"team",
+				"test/fixtures/teams.yml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"appliccss",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"listing_lease_info",
+				"app/models/listing_lease_info.rb"
+			],
+			[
+				"lease_in",
+				"app/models/listing_lease_info.rb"
+			],
+			[
+				"listindet",
+				"app/views/listings/listing_details.html.erb"
+			],
+			[
+				"units",
+				"app/controllers/units_controller.rb"
+			],
+			[
+				"app/views/listings/listing_overview.html.erb",
+				"app/views/listings/listing_overview.html.erb"
+			],
+			[
+				"entityacc",
+				"app/assets/javascripts/entity_accord.js"
+			],
+			[
+				"activeaccordio",
+				"app/views/shared/_active_accordion_property.html.erb"
+			],
+			[
+				"produ",
+				"config/environments/production.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"delete",
+				"app/assets/javascripts/delete_records.js"
+			],
+			[
+				"picture",
+				"app/views/contacts/picture.html.erb"
+			],
+			[
+				"contacts/add_actionitems",
+				"app/views/contacts/_add_actionitems.html.erb"
+			],
+			[
+				"new_actionitems",
+				"app/views/contacts/new_actionitems.html.erb"
+			],
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"_upload",
+				"app/views/contacts/_upload_photo.html.erb"
+			],
+			[
+				"app/reports/detailed_listing_report.rb",
+				"app/reports/detailed_listing_report.rb"
+			],
+			[
+				"properover",
+				"app/views/properties/property_overview.html.erb"
+			],
+			[
+				"contacts/action",
+				"app/views/contacts/_add_actionitems.html.erb"
+			],
+			[
+				"shared/note",
+				"app/views/shared/_note.html.erb"
+			],
+			[
+				"_addnote",
+				"app/views/contacts/_add_notes.html.erb"
+			],
+			[
+				"scro",
+				"vendor/assets/javascripts/jquery.mCustomScrollbar.js"
+			],
+			[
+				"activa",
+				"app/views/user_mailer/account_activation.html.erb"
+			],
+			[
+				"unit.rb",
+				"app/models/unit.rb"
+			],
+			[
+				"tenan",
+				"app/models/tenant_lease.rb"
+			],
+			[
+				"propertytype",
+				"app/models/property_type.rb"
+			],
+			[
+				"listings/",
+				"app/views/listings/_search_property.html.erb"
+			],
+			[
+				"export",
+				"app/views/settings/export.html.erb"
+			],
+			[
+				"tenanlease",
+				"app/models/tenant_lease.rb"
+			],
+			[
+				"contact_per",
+				"app/models/contact_personal_info.rb"
+			],
+			[
+				"exporter",
+				"lib/import_export/exporter.rb"
+			],
+			[
+				"applicahel",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"note",
+				"app/models/note.rb"
+			],
+			[
+				"dash/in",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"deal.rb",
+				"app/models/deal.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"deal.r",
+				"app/models/deal.rb"
+			],
+			[
+				"contacts/uploa",
+				"app/views/contacts/_upload_photo.html.erb"
+			],
+			[
+				"contacts/new",
+				"app/views/contacts/new.html.erb"
+			],
+			[
+				"edit_basi",
+				"app/views/client_requirements/edit_basic_info.html.erb"
+			],
+			[
+				"contact_family_infos",
+				"app/views/contacts/_contact_family_infos.html.erb"
+			],
+			[
+				"personal_info",
+				"app/views/contacts/_personal_info.html.erb"
+			],
+			[
+				"edit_con",
+				"app/views/contacts/edit_contact_personal_info.html.erb"
+			],
+			[
+				"_famil",
+				"app/views/contacts/_contact_family_infos.html.erb"
+			],
+			[
+				"_basic",
+				"app/views/client_requirements/_basic_info.html.erb"
+			],
+			[
+				"active",
+				"app/views/shared/_active_accordion_client_requirement.html.erb"
+			],
+			[
+				"listingover",
+				"app/views/listings/listing_overview.html.erb"
+			],
+			[
+				"appli_la",
+				"app/assets/stylesheets/application_layout.css.erb"
+			],
+			[
+				"clientover",
+				"app/views/client_requirements/client_requirements_overview.html.erb"
+			],
+			[
+				"_persona",
+				"app/views/contacts/_personal_info.html.erb"
+			],
+			[
+				"contactscontro",
+				"app/controllers/contacts_controller.rb"
+			],
+			[
+				"_add_note",
+				"app/views/contacts/_add_notes.html.erb"
+			],
+			[
+				"_add",
+				"app/views/deals/client_requirement_deal/_add_cr_contacts.html.erb"
+			],
+			[
+				"dele",
+				"app/assets/javascripts/delete_records.js"
+			],
+			[
+				"propertyt",
+				"app/models/property_type.rb"
+			],
+			[
+				"foo",
+				"app/views/shared/_footer.html.erb"
+			],
+			[
+				"reports",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"app/views/listings/steps/_available_units.html.erb",
+				"app/views/listings/steps/_available_units.html.erb"
+			],
+			[
+				"deals/deal_contacts",
+				"app/views/deals/_deal_contacts.html.erb"
+			],
+			[
+				"project",
+				"app/views/listings/project_details.html.erb"
+			],
+			[
+				"unit_details",
+				"app/views/units/unit_details.html.erb"
+			],
+			[
+				"user.",
+				"app/models/user.rb"
+			],
+			[
+				"deal_lease",
+				"app/views/deals/deal_lease.html.erb"
+			],
+			[
+				"deal_sale",
+				"app/views/deals/deal_sale.html.erb"
+			],
+			[
+				"deal_contact",
+				"app/views/deals/deal_contacts.html.erb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"deal_other",
+				"app/views/deals/deal_other.html.erb"
+			],
+			[
+				"deal_comm",
+				"app/assets/javascripts/deal_commission_calculator.js"
+			],
+			[
+				"price",
+				"app/assets/javascripts/price_formatter.js"
+			],
+			[
+				"action",
+				"app/models/actionitem.rb"
+			],
+			[
+				"dael_commi",
+				"app/assets/javascripts/deal_commission_calculator.js"
+			],
+			[
+				"tenant_contact",
+				"app/views/units/steps/_tenant_contact.html.erb"
+			],
+			[
+				"popup",
+				"app/assets/javascripts/popup.js"
+			],
+			[
+				"prop",
+				"app/models/property.rb"
+			],
+			[
+				"property",
+				"app/models/property.rb"
+			],
+			[
+				"unit_detail",
+				"app/views/units/unit_details.html.erb"
+			],
+			[
+				"unitjs",
+				"app/assets/javascripts/unit_detail_calc.js"
+			],
+			[
+				"unit_det",
+				"app/views/units/steps/_unit_details_residential.html.erb"
+			],
+			[
+				"unitdeta",
+				"test/unit/unit_details_industry_test.rb"
+			],
+			[
+				"unitde",
+				"app/views/properties/unit_details.html.erb"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"productio",
+				"config/environments/production.rb"
+			],
+			[
+				"_link",
+				"app/views/client_requirements/_link_to_contact.html.erb"
+			],
+			[
+				"unit_detjs",
+				"app/assets/javascripts/unit_detail_calc.js"
+			],
+			[
+				"units/steps/_unit_details_residential.html.erb",
+				"app/views/units/steps/_unit_details_residential.html.erb"
+			],
+			[
+				"unitdetailsresidential",
+				"app/models/unit_details_residential.rb"
+			],
+			[
+				"_unit",
+				"app/views/units/_unit_residential.html.erb"
+			],
+			[
+				"_unit_",
+				"app/views/units/_unit_residential.html.erb"
+			],
+			[
+				"unit_type",
+				"app/models/unit_type.rb"
+			],
+			[
+				"unitdetailsland",
+				"app/models/unit_details_land.rb"
+			],
+			[
+				"change",
+				"lib/change_deal_status.rb"
+			],
+			[
+				"dealscon",
+				"app/controllers/deals_controller.rb"
+			],
+			[
+				"deal_stat",
+				"app/models/deal_status.rb"
+			],
+			[
+				"load_contingency",
+				"app/views/deals/_load_contingency.html.erb"
+			],
+			[
+				"deal_contingenci",
+				"app/views/deals/status_change/listing/_deal_contingencies_and_critical_dates.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/project/bbc/trunk/BBC/BBC.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

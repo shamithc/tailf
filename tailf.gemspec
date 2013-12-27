@@ -7,11 +7,11 @@ require "tailf/version"
 Gem::Specification.new do |s|
   s.name        = "tailf"
   s.version     = Tailf::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Tailf."
-  s.description = "TODO: Description of Tailf."
+  s.authors     = ["Vishnu V N"]
+  s.email       = ["vishnuvntcr@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "Summary of Tailf."
+  s.description = "Description of Tailf."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
@@ -19,6 +19,10 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.0.1"
   s.add_dependency 'guard-livereload'
   s.add_dependency 'better_errors'
-  
+  s.add_dependency 'file-tail'
   s.add_development_dependency "sqlite3"
+  s.add_dependency 'guard', '>= 2.2.2'
+  s.add_dependency 'guard-livereload'
+  s.add_dependency 'rack-livereload'
+  s.add_dependency 'rb-fsevent'
 end
